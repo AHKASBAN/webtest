@@ -19,7 +19,7 @@ nav {
 
 }
 .navbar-light .navbar-nav .nav-link  {
-    color:	#085e98;
+    color:	#eb3323;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -29,24 +29,24 @@ nav {
     transition:color all 0.7s ease;
 }
 .navbar-light .navbar-nav .nav-link:hover  {
-    border-bottom:2px solid  #53BFD8;
+    border-bottom:2px solid  #AB6B68;
 }
 .navbar-light .navbar-nav .nav-item:last-of-type {
-    border-bottom: 0px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 .navbar-light .navbar-nav .nav-item:last-of-type:hover{
-    border-bottom:0px solid  #53BFD8;
+    border-bottom:2px solid  transparent;
     
 }
 .navbar-light .navbar-nav .dropdown-menu {
    
     border-radius: 0;
-    border-top:3px solid   #085e98 ; 
+    border-top:3px solid   #eb3323 ; 
     margin-top: 0; 
 }
     
 .dropdown-item {
-    color:	#085e98;
+    color:	#eb3323;
     font-family: 'Roboto';
     font-size: 16px;
     text-transform: capitalize;
@@ -58,10 +58,10 @@ nav {
    
 }
 .dropdown-item:last-child {
-    border-bottom: #d2d2d2 0px solid;
+    border-bottom: transparent 1px solid;
 }
 .navbar-light .navbar-nav .nav-link:hover , .dropdown-item:hover {
-    color:#333!important;
+    color:#AB6B68!important;
 }
 .soical {
     width: 35px;
@@ -69,19 +69,22 @@ nav {
     border-radius: 50%;
     margin: 0 5px;
     display: flex;
+   
 }
+
 .soical i{
   font-size: 14px !important;
   margin: auto;
   align-items: center;
-  color: white;
+  color: #fff;
+  
 }
 .soical:hover {
     text-decoration: none;
   }
 .bar-icon #open-collapse{
     text-transform: uppercase;
-    color: #085e98;
+    color: #eb3323;
     font-size: 16px;
     font-family: 'Roboto';
     font-weight: 500;
@@ -98,7 +101,7 @@ nav {
   
 }
 .bar-icon #close-collapse:hover{
-    color: #085e98;
+    color: #eb3323;
 
   
 }
@@ -136,7 +139,7 @@ nav {
 }
 .button {
     width: 200px;
-    background-color: #085bc9;
+    background-color: #eb3323;
     margin: auto;
     text-align: center;
     padding: 15px 25px;
@@ -193,7 +196,7 @@ nav {
     }
 
     .navbar-light .navbar-nav .dropdown-menu {
-        border-top:1px solid   #085e98 ; 
+        border-top:1px solid   #eb3323 ; 
     }
     header .container {
         max-width: 100%;
@@ -204,7 +207,7 @@ nav {
        
     }
     .dropdown-item:hover , .navbar-light .navbar-nav .nav-link:hover{
-        color:	#085e98 !important;
+        color:	#eb3323 !important;
       
        
     }
@@ -227,7 +230,7 @@ nav {
 
 /***********empty**************************/
 .empty {
-    background: #002A54;
+    background: #AB8E8D;
     height: 100px;
 }
 
@@ -401,7 +404,7 @@ nav {
     color: black;
   }
   .flip-card-back {
-    background-color: dodgerblue;
+    background-color: #eb3323;
     color: white;
     transform: rotateY(-180deg);
    padding: 30px;
@@ -459,7 +462,7 @@ footer a{
     font-size: 15px;
 }
 footer a:hover{
-    color: #085e98;
+    color: #eb3323;
     text-decoration: none;
     font-weight: 500;
 }
@@ -469,7 +472,7 @@ footer li {
     padding:  10px 0 ;
 }
 footer  p {
-   border-left: 3px solid #085e98;
+   border-left: 3px solid #eb3323;
    padding: 0 0 0 10px;
    font-family: "Montserrat", Sans-serif;
     font-weight: 400;
@@ -536,7 +539,7 @@ article  p {
     margin: 25px 0;
 }
 article hr , .hr{
-    border-top: 2px solid #53BFD8;
+    border-top: 2px solid #eb3323;  
     width: 100px;
 }
 article  h1 {
@@ -598,8 +601,15 @@ section .button  a{
     font-size: 15px;
 }
 section .red {
-    background: #D9534F;
+    background: transparent;
+    border: 1px solid #eb3323;
+    color: #eb3323;
     width: 120px;
+}
+section .red a , section .red a:hover{
+  
+    color: #eb3323;
+    
 }
 /*************************background********************/
 .background .banner2 {
@@ -624,7 +634,7 @@ section .red {
 .background .banner2 .button{
     width: 200px;
     z-index: 10;
-   background: #085BC9;
+   background: #eb3323 !important;
    position: relative;
     
 }
@@ -776,7 +786,7 @@ margin: 10px 0;
 }
 /************************contact***********************/
 .contact   .form-content button , .applay   .form-content button{
-    background-color: #085bc9 ;
+    background-color: #eb3323 ;
     font-family: "Montserrat", Sans-serif ;
     font-weight: 500 ;
     text-transform:capitalize  ;
@@ -795,7 +805,7 @@ margin: 10px 0;
 color: #7E7E73;
 }
 .ourcontact p a {
-    color: #085bc9;
+    color: #eb3323;
     }
 
 /*************************faq***************************/
@@ -821,7 +831,7 @@ color: #7E7E73;
   
 }
 .faq .question:hover {
- color: #085e98;
+ color: #eb3323;
  cursor: pointer;
 }
 .faq .question:hover i{
@@ -872,3 +882,8 @@ color: #7E7E73;
     background: #333;
     color: #fff;
   }
+
+  .btn-primary {
+   
+    border-color: transparent;
+}

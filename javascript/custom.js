@@ -78,7 +78,7 @@ else {
   $(this).siblings('.answer').slideDown("slow");
   $(this).children('.fa-caret-right').hide();
   $(this).children('.fa-caret-up').show();
-  $(this).css('color' ,'#085e98');
+  $(this).css('color' ,'#eb3323');
 }
 });
 
