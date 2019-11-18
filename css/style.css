@@ -130,7 +130,7 @@ nav {
     color: white;
   font-size: 4rem;
     line-height: 1.2em;
-    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    text-shadow: 0px 0px 10px #eb3323;
     margin: 10px 0;
 }
 .banner h2 span{
@@ -285,7 +285,7 @@ nav {
 }
 .area .grid h2 {
    color: #fff;
-    text-shadow: 0px 0px 34px rgba(28,28,28,0.76);
+    text-shadow: 0px 0px 34px #eb3323;
     font-size: 39px;
     
 
